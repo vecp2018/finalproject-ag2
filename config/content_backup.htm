@@ -1,62 +1,36 @@
+<h1>簡介</h1>
+<p>2018 Fall 期末分組網站</p>
+<p>組長:</p>
+<p>40728420 <a href="https://github.com/vecp2018/site-s40728420" rel="noopener" target="_blank">古文寶</a>  <span>(期中自評成績:60)</span></p>
+<p>組員:</p>
+<p>40728417 <a href="https://github.com/vecp2018/site-40728417" rel="noopener" target="_blank">許倫維</a>    <span>(期中自評成績:65)</span><a href="https://github.com/vecp2018/site-40728417" rel="noopener" target="_blank" title="許倫維"></a></p>
+<p><span>40728427 <a href="https://github.com/vecp2018/site-40728427s" rel="noopener" target="_blank">林才義</a>  (期中自評成績:70)</span></p>
+<p><span>40728450 <a href="https://github.com/vecp2018/site-40728450s" rel="noopener" target="_blank">陳駿龍</a>  (期中自評成績:70)</span><span></span></p>
+<p><span>40728418 <a href="https://github.com/vecp2018/site-40728418s" rel="noopener" target="_blank">張承恩</a>  </span><span>(期中自評成績:80)</span><span></span></p>
+<p><span>40728435 <a href="https://github.com/vecp2018/site-40728435" rel="noopener" target="_blank">羅明智</a>  (期中自評成績:70)</span></p>
+<p></p>
+<p>本倉儲位於:<a href="https://github.com/vecp2018/finalproject-ag2"> https://github.com/vecp2018/finalproject-ag2</a></p>
+<p></p>
+<h1>W9</h1>
+<p><a href="http://mde2a1.kmol.info:8000/jfyyrvsr1yia">http://mde2a1.kmol.info:8000/jfyyrvsr1yia</a> </p>
+<p></p>
+<p><a href="http://192.168.1.22:5000/">http://192.168.1.22:5000/</a></p>
+<p></p>
+<p><a href="https://da01.mde.nfu.edu.tw">https://da01.mde.nfu.edu.tw</a> </p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/4i1D5rIrkAM" width="560"></iframe></p>
+<h1>W10</h1>
+<h1>W11</h1>
+<h1>W12</h1>
+<h1>W13</h1>
+<h1>W14</h1>
+<p></p>
 <h1>Python 安裝</h1>
 <h4>Windows 操作系統</h4>
 <p>利用瀏覽器連結至 <a href="https://www.python.org/downloads/">https://www.python.org/downloads/</a> 後, 從 <a href="https://www.python.org/downloads/windows/">https://www.python.org/downloads/windows/</a> 下載 <a href="https://www.python.org/ftp/python/3.7.2/python-3.7.2rc1-amd64.exe">https://www.python.org/ftp/python/3.7.2/python-3.7.2rc1-amd64.exe</a>, 在 Windows 10 64 位元環境中安裝, 即可從 cmd 命令列中, 以 python 指令使用互動式指令環境.</p>
 <p>可攜 Python 系統: <a href="https://drive.google.com/open?id=1qSnGb4NBmfGG0jGVNfQJX_9TNVweIdFW">p37-18.12.7z</a> (下載解開壓縮檔案後, 以 start.bat 啟動後即可使用)</p>
 <h4>Ubuntu 操作系統</h4>
-<p>比較方便使用的 Ubuntu 操作系統, 可以在 Windows 10 64 位元環境中, 安裝 <a href="https://www.virtualbox.org/wiki/Downloads">Virtualbox</a> 虛擬環境後, 再安裝 Ubuntu LTS 版本.</p><h1>電腦硬體</h1>
-<div id="container"></div>
-<p>
-<script src="/static/konva.min.js"></script>
-<script src="/static/brython.js"></script>
-<script src="/static/brython_stdlib.js"></script>
-<script>
-window.onload=function(){
-brython({debug:1, pythonpath:['/static/']});
-}
-</script>
-<script type="text/python3">
-from browser import window, document, html
-output = document["container"]
-width = window.innerWidth
-height = window.innerHeight
-
-konva = window.Konva
-stage = konva.Stage.new({
-        "container": 'container',
-        "width": width,
-        "height": height
-    })
-
-
-layer = konva.Layer.new()
-rectX = stage.getWidth() / 2 - 50
-rectY = stage.getHeight() / 2 - 25
-
-box = konva.Rect.new({
-        "x": rectX,
-        "y": rectY,
-        "width": 100,
-        "height": 50,
-        "fill": '#00D2FF',
-        "stroke": 'black',
-        "strokeWidth": 4,
-        "draggable": True
-    })
-
-def f1():
-    document.body.style.cursor = 'pointer'
-    
-def f2():
-    document.body.style.cursor = 'default'
-
-# add cursor styling
-box.on('mouseover', f1())
-box.on('mouseout', f2())
-
-layer.add(box)
-stage.add(layer)
-</script>
-</p>
+<p>比較方便使用的 Ubuntu 操作系統, 可以在 Windows 10 64 位元環境中, 安裝 <a href="https://www.virtualbox.org/wiki/Downloads">Virtualbox</a> 虛擬環境後, 再安裝 Ubuntu LTS 版本.</p>
+<h1>電腦硬體</h1>
 <p><a href="/downloads/Computer_Overview_and_hardware.pdf">computer overview and hardware.pdf</a></p>
 <p>(<a href="https://www.cs.auckland.ac.nz/compsci111ssc/lectures/LectureSlides/">https://www.cs.auckland.ac.nz/compsci111ssc/lectures/LectureSlides/</a>)</p>
 <h4>Computer 硬體</h4>
@@ -76,7 +50,8 @@ stage.add(layer)
 <h4>個人桌上型電腦內部</h4>
 <p><img alt="" height="358" src="/images/inside_desktop.png" width="600"/></p>
 <h4>筆記型電腦內部</h4>
-<p><img alt="" height="320" src="/images/insite_laptop.png" width="600"/></p><h1>Python 語法</h1>
+<p><img alt="" height="320" src="/images/insite_laptop.png" width="600"/></p>
+<h1>Python 語法</h1>
 <p>Python 3 官方教材: <a href="https://docs.python.org/3/index.html">https://docs.python.org/3/index.html</a> </p>
 <p>Python tutorial: <a href="https://docs.python.org/3/tutorial/index.html">https://docs.python.org/3/tutorial/index.html</a> (英文)</p>
 <p>Python 教學: <a href="https://python-doc-tw.github.io/tutorial/index.html">https://python-doc-tw.github.io/tutorial/index.html</a> </p>
@@ -1743,7 +1718,8 @@ doc["konva1"].bind('click', Konva1.prog)
 <h4>參考資料:</h4>
 <p><a href="/downloads/turtle_intro.pdf">turtle_intro.pdf</a></p>
 <p><a href="/downloads/turtle_intro2.pdf">turtle_intro2.pdf</a></p>
-<p>其他擷取程式的方式: <a href="http://mde.tw/2017springvcp/blog/web-based-python.html">http://mde.tw/2017springvcp/blog/web-based-python.html</a> </p><h1>Brython</h1>
+<p>其他擷取程式的方式: <a href="http://mde.tw/2017springvcp/blog/web-based-python.html">http://mde.tw/2017springvcp/blog/web-based-python.html</a> </p>
+<h1>Brython</h1>
 <h4>Documentation</h4>
 <p><a href="https://brython.info/static_doc/en/intro.html?lang=en">https://brython.info/static_doc/en/intro.html?lang=en</a> </p>
 <h4>有關 Javascript 中的 this 導入</h4>
@@ -1907,7 +1883,8 @@ if __name__ == '__main__':
 <h4>參考資料:</h4>
 <p><a href="https://stackoverflow.com/questions/41957490/send-canvas-image-data-uint8clampedarray-to-flask-server-via-ajax">https://stackoverflow.com/questions/41957490/send-canvas-image-data-uint8clampedarray-to-flask-server-via-ajax</a> </p>
 <h4>Konva js</h4>
-<p><a href="https://code.tutsplus.com/series/manipulating-html5-canvas-using-konva--cms-1242">https://code.tutsplus.com/series/manipulating-html5-canvas-using-konva--cms-1242</a> </p><h1>參考資料</h1>
+<p><a href="https://code.tutsplus.com/series/manipulating-html5-canvas-using-konva--cms-1242">https://code.tutsplus.com/series/manipulating-html5-canvas-using-konva--cms-1242</a> </p>
+<h1>參考資料</h1>
 <h4>Python 教材</h4>
 <p><a href="https://www.python-course.eu">https://www.python-course.eu</a> </p>
 <p><a href="http://mde.tw/cp2018">http://mde.tw/cp2018</a> </p>
@@ -1925,7 +1902,8 @@ if __name__ == '__main__':
 <h4>Algorithm</h4>
 <p><a href="https://medium.com/100-days-of-algorithms">https://medium.com/100-days-of-algorithms</a>  (<a href="https://medium.com/@tomas.bouda">https://medium.com/@tomas.bouda</a> )</p>
 <h4>其他程式語言</h4>
-<p><a href="https://en.wikipedia.org/wiki/JavaScript">https://en.wikipedia.org/wiki/JavaScript</a> </p><h1>電子書</h1>
+<p><a href="https://en.wikipedia.org/wiki/JavaScript">https://en.wikipedia.org/wiki/JavaScript</a> </p>
+<h1>電子書</h1>
 <h4>Learn to Program with Python 3 - A Step-by-Step Guide to Programming</h4>
 <p><a href="https://link.springer.com/book/10.1007/978-1-4842-3879-0">https://link.springer.com/book/10.1007/978-1-4842-3879-0</a> </p>
 <h4>Beginning Python - From Novice to Professional</h4>
