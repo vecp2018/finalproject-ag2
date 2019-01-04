@@ -126,10 +126,10 @@ vertical: body pane on the botton</t>
 <t tx="leo.20180827201621.1"></t>
 <t tx="leo.20180827201621.10">## 2018Fall 分組網際簡報
 
-### 虎科大機械設計工程系
+### 虎科大車輛工程進修推廣部
 
 &lt;small&gt;
-Created by [KMOLab](http://lab.kmol.info/)
+Created by [KMOLab](https://vecp2018.github.io/finalproject-ag2/blog/2018-Fall-Project-Blog.html)
 &lt;/small&gt;
 
 [2018 Fall 分組網誌](./../blog/index.html)
