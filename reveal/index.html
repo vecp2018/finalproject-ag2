@@ -39,15 +39,15 @@
 <div class="slides">
 <section data-markdown>
     <script type="text/template">
-## 2018Fall 分組網際簡報
+## 2018Fall ag2分組網際簡報
 
 ### 虎科大車輛工程進修推廣部
 
 <small>
-Created by [KMOLab](https://vecp2018.github.io/finalproject-ag2/blog/2018-Fall-Project-Blog.html)
+Created by [ag2](https://vecp2018.github.io/finalproject-ag2/blog/2018-Fall-Project-Blog.html)
 </small>
 
-[2018 Fall 分組網誌](./../blog/index.html)
+[2018 Fall ag2分組網誌](./../blog/index.html)
 
 
     </script>
@@ -57,15 +57,14 @@ Created by [KMOLab](https://vecp2018.github.io/finalproject-ag2/blog/2018-Fall-P
 						
 <section data-markdown>
     <script type="text/template">
-# 投影片快捷鍵
+# ag2組員
 
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
-
+* 古文寶 40728420 (組長)
+* 張承恩 40728418
+* 林才義 40728427
+* 許倫維 40728417
+* 陳駿龍 40728450
+* 羅明智 40728435
     </script>
 </section>
 
@@ -74,13 +73,27 @@ Created by [KMOLab](https://vecp2018.github.io/finalproject-ag2/blog/2018-Fall-P
 <section>
 <section data-markdown>
     <script type="text/template">
-<!-- 請注意, @others 不可以內縮 -->
-# 數學符號與方程式
+# W10~W12
 
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
+* 說明如何開始進行分組協同程式開發
+* 進行分組再到老師指定的地方加入組別
+* 學習使用分租網站
+* 領取各組的倉儲作業
+    </script>
+</section>
 
-$$I = \int \rho R^{2} dV$$
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+#W13~W15
+
+* 如何利用 Flask 編寫網際英英單字查詢服務
+* 利用 python-course 倉儲建立各分組的網際程式環境
+* git clone kmolgame把小遊戲的數據進行修改
+* 學習Reveal的網際簡報修改
+
     </script>
 </section>
 
@@ -90,32 +103,11 @@ $$I = \int \rho R^{2} dV$$
 <section data-markdown>
     <script type="text/template">
 <!-- 請注意, @others 不可以內縮 -->
-## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
-```
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
+# W16~W18
 
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
-```
+* 組員個人期末影片錄製
+* 準備ag2的期末網際簡報
+
     </script>
 </section>
 
@@ -124,13 +116,13 @@ make.start()
 						
 <section data-markdown>
     <script type="text/template">
-## 使用 iframe 導入影片
+#W19
 
-### 導入影片 template
+* 進行期末報告
 
-<iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     </script>
 </section>
+
 
 
 						
