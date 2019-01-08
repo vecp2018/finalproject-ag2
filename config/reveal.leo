@@ -34,11 +34,11 @@
 <v t="leo.20190108111725.1" a="E"><vh>W13~W15</vh>
 <v t="leo.20190108111725.2"><vh>W13~W15</vh></v>
 </v>
-<v t="leo.20180827201621.14" a="E"><vh>W16~W18</vh>
-<v t="leo.20180827201621.15"><vh>W16~W18</vh></v>
+<v t="leo.20180827201621.14" a="E"><vh>W16~W17</vh>
+<v t="leo.20180827201621.15"><vh>W16~W17</vh></v>
 </v>
-<v t="leo.20180827201621.16" a="E"><vh>W19</vh>
-<v t="leo.20180827201621.17"><vh>W19</vh></v>
+<v t="leo.20180827201621.16" a="E"><vh>W18</vh>
+<v t="leo.20180827201621.17"><vh>W18</vh></v>
 </v>
 </v>
 </v>
@@ -173,10 +173,12 @@ Created by [ag2](https://vecp2018.github.io/finalproject-ag2/blog/2018-Fall-Proj
 
 						
 </t>
-<t tx="leo.20180827201621.15"># W16~W18
+<t tx="leo.20180827201621.15"># W16~W17
 
 * 組員個人期末影片錄製
-* 準備ag2的期末網際簡報</t>
+* 準備ag2的期末網際簡報
+
+</t>
 <t tx="leo.20180827201621.16">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -187,9 +189,11 @@ Created by [ag2](https://vecp2018.github.io/finalproject-ag2/blog/2018-Fall-Proj
 
 						
 </t>
-<t tx="leo.20180827201621.17">#W19
+<t tx="leo.20180827201621.17">#W18
 
-* 進行期末報告</t>
+* 進行期末網際簡報報告
+
+</t>
 <t tx="leo.20180827201621.2"></t>
 <t tx="leo.20180827201621.3">@language xml
 @tabwidth -4
